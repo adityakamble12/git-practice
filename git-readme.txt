@@ -1,3 +1,14 @@
+GIT COMMANDS: this document is created by aditya kamble. have fun :)
+
+
+install git on your local system or ec2 instance(VM):
+-> sudo apt install git
+
+-> git --version
+
+note: create a new directory on your local and start using the commands. 
+
+
 -> git init
 initialize an empty git repository.
 
@@ -85,3 +96,5 @@ git config --global --add safe.directory /home/ubuntu/git-demo  (your path and d
 git config --global user.name "Your Name"
 
 git config --global user.email you@example.com
+
+git config --global credential.helper
