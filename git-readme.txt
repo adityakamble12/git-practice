@@ -44,6 +44,15 @@ restore the deleted files from git(previous version).
 if you have deleted a commited file and want that file again.
 
 
+-> git remote add origin <url>
+
+
+-> git push origin master/main
+
+
+-> git pull origin master/main
+
+
 -> git log
 shows the history/details about the commit id, authors and dates.
 
@@ -65,8 +74,14 @@ hide the incomplete file before pulling same completed file.
 merging or combining your task to master branch from slave branch.
 
 
+-> git remote -v
+
 note: whenever we create a new repository on our local system, by default branch name is master, and on remote repository branch name is main.
 
-errors solving commands:
-git config --global --add safe.directory /home/ubuntu/git-demo
 
+errors solving commands:
+git config --global --add safe.directory /home/ubuntu/git-demo  (your path and directory name)
+
+git config --global user.name "Your Name"
+
+git config --global user.email you@example.com
